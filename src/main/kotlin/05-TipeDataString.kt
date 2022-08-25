@@ -8,6 +8,13 @@ fun main() {
         Indonesia.
         """
 
+    var addressTrim: String="""
+        |Purwokerto,
+        |Cantral Java,
+        |Indonesia.
+        """.trimMargin()
+
     println(name)
     println(address)
+    println(addressTrim)
 }
