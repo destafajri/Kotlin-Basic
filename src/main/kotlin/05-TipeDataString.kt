@@ -17,4 +17,14 @@ fun main() {
     println(name)
     println(address)
     println(addressTrim)
+
+    //String Template
+    var firstName: String= "Desta"
+    var lastName: String= "Fajri"
+    var fullName: String= "$firstName $lastName"
+
+    var description: String= "$fullName, length string ${fullName.length}"
+
+    println(fullName)
+    println(description)
 }
